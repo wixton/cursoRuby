@@ -1,0 +1,19 @@
+@baseFontFamily: 'Oxigen';
+@import url(http://fonts.googleapi.com/css?family=Oxigen);
+
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+body{
+  padding-top: 70px;
+}
+
+.footer{
+  margin-top: 50px;
+  color: $gray-light;
+ a{
+   color: $gray;
+ }
+}

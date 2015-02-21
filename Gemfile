@@ -4,6 +4,7 @@ ruby "2.1.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+gem 'bootstrap-sass', '~> 3.3.3'
 # Use sqlite3 as the database for Active Record
 # Se incluyen los siguientes grupos por la estructura del proyecto en heroku
 group :development, :test do
@@ -13,6 +14,7 @@ group :production do
   gem 'pg'
 end
 gem 'rails_12factor'
+gem 'google-api-client'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,3 +52,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
